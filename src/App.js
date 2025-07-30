@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="p-8">
+      <h1 className="text-3xl font-bold text-blue-600 underline">
+        Olá, Soluções ABAplay!
+      </h1>
+      <p className="mt-4 text-gray-700">
+        Se você está a ver este texto estilizado, o React e o Tailwind CSS estão a funcionar corretamente.
+      </p>
     </div>
   );
 }
